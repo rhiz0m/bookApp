@@ -1,0 +1,20 @@
+//
+//  UpdateBookScreen.swift
+//  bookApp
+//
+//  Created by Andreas Antonsson on 2023-10-03.
+//
+
+import SwiftUI
+
+struct UpdateBookScreen: View {
+    var body: some View {
+        Text("Update Books!")
+    }
+}
+
+struct UpdateBookScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        UpdateBookScreen()
+    }
+}
