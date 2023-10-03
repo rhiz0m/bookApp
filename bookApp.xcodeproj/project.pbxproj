@@ -71,6 +71,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE819BC52ACC732B00C5A9BD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FE819BCD2ACC767700C5A9BD /* network */,
+				FE819BCA2ACC74C300C5A9BD /* utils */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FE819BC62ACC734300C5A9BD /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FE819BCB2ACC750C00C5A9BD /* ui.themes */,
+				FE819BC92ACC747E00C5A9BD /* view.screens */,
+				FE819BC82ACC746A00C5A9BD /* widgets */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FE819BC72ACC735200C5A9BD /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				FE819BCC2ACC760B00C5A9BD /* viewmodel.screens */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		FE819BC82ACC746A00C5A9BD /* widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widgets;
+			sourceTree = "<group>";
+		};
+		FE819BC92ACC747E00C5A9BD /* view.screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view.screens;
+			sourceTree = "<group>";
+		};
+		FE819BCA2ACC74C300C5A9BD /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		FE819BCB2ACC750C00C5A9BD /* ui.themes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ui.themes;
+			sourceTree = "<group>";
+		};
+		FE819BCC2ACC760B00C5A9BD /* viewmodel.screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewmodel.screens;
+			sourceTree = "<group>";
+		};
+		FE819BCD2ACC767700C5A9BD /* network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		FEBE827E2AC5DE8F0027FE8B = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +163,9 @@
 		FEBE82892AC5DE8F0027FE8B /* bookApp */ = {
 			isa = PBXGroup;
 			children = (
+				FE819BC72ACC735200C5A9BD /* viewmodel */,
+				FE819BC62ACC734300C5A9BD /* view */,
+				FE819BC52ACC732B00C5A9BD /* model */,
 				FEBE828A2AC5DE8F0027FE8B /* bookAppApp.swift */,
 				FEBE828C2AC5DE8F0027FE8B /* ContentView.swift */,
 				FEBE828E2AC5DE900027FE8B /* Assets.xcassets */,
