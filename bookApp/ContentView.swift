@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
-            HomeScreen()
+            HomeScreen().padding(CGFloat(Spacing().large))
+            primaryBtn(title: "Button Home!", onPress: {
+                print("Home button works on homescreen! :)")
+            })
         }
         .padding()
+        
     }
 }
 
